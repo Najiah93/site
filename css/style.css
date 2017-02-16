@@ -1,0 +1,118 @@
+p {
+  color: black;
+}
+
+header {
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+  .hello {
+      color: pink;
+  }
+
+
+.abc li{
+  display: inline;
+}
+
+.box {
+    display: none;
+}
+
+body {
+
+  font-family: 'Open Sans Condensed', sans-serif !important;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B5A2C8;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #B5A2C8 -webkit-gradient(linear, left top, left bottom, from(#C8A2C2), to(#B5A2C8)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #B5A2C8 -moz-linear-gradient(top, #C8A2C2, #B5A2C8) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8A2C2, endColorstr=#B5A2C8) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8A2C2, endColorstr=#C8A2C2)" no-repeat;
+
+}
+
+.menu li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.socialmediaicons .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.socialmediaicons .fa-snapchat-ghost {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
